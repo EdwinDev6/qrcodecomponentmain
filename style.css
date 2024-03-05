@@ -1,84 +1,73 @@
-html, body{
-    margin:0;
-    padding: 0;
-    background-color:RGB(214, 226, 240);
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: RGB(214, 226, 240);
 }
-body{
-    
-    width: 100%;
-    height: 100%;
-    font-family: 'Outfit', sans-serif;
-    letter-spacing: 0.03;
-    line-height: 1.6;
-}
-
-
- 
-
-
-
-.container{
-    font-size: 15px;
-    width: 100;
-    max-width: 1200px;
-    height: 430px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: auto;
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Outfit", sans-serif;
+  letter-spacing: 0.03;
+  line-height: 1.6;
 }
 
-.container .attribution img{
-    margin-top: 16px;
-border-radius: 8px;    
-width: 250px;
-height: 250px;
+.container {
+  font-size: 15px;
+  width: 100;
+  max-width: 1200px;
+  height: 430px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
 }
 
-  .attribution {
-    background-color: antiquewhite;
-     font-size: 11px; text-align: center; 
-     width: 320px;
-     height: 430px;
-     border-radius: 20px;
-     
-     overflow: hidden;
-     margin: 20px;
-     text-align: center;
-    }
-
-  .attribution a { 
-    color: hsl(228, 45%, 44%); 
-    
-}
-.footer{
-  
-    height:50px;
-    line-height:50px;
-    bottom:0;
-    left:0;
-    width:100%;
-  
-text-align: center;
-
+.container .attribution img {
+  margin-top: 16px;
+  border-radius: 8px;
+  width: 250px;
+  height: 250px;
 }
 
-h1{
-    font-family: 'Outfit', sans-serif;
-    color: RGB(31, 50, 81);
+.attribution {
+  background-color: white;
+  font-size: 11px;
+  text-align: center;
+  width: 320px;
+  height: 430px;
+  border-radius: 20px;
+
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
 }
 
-p{
-    font-size: 15px;
-    color:RGB(123, 135, 157);
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.footer {
+  height: 50px;
+  line-height: 50px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
+  text-align: center;
 }
 
-
-@media (max-width: 1440px){
-    
-        
+h1 {
+  font-family: "Outfit", sans-serif;
+  color: RGB(31, 50, 81);
 }
 
-@media(max-width:375px){
- 
+p {
+  font-size: 15px;
+  color: RGB(123, 135, 157);
+}
+
+@media (max-width: 1440px) {
+}
+
+@media (max-width: 375px) {
 }
