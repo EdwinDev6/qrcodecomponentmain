@@ -34,7 +34,7 @@ body {
 .container .attribution img {
   margin: 6px;
   border-radius: 8px;
-  width: 250px;
+  width: 300px;
   height: 250px;
 }
 
@@ -43,7 +43,7 @@ body {
   font-size: 11px;
   text-align: center;
   width: 320px;
-  height: 430px;
+  height: 470px;
   border-radius: 20px;
   overflow: hidden;
   margin: 20px;
