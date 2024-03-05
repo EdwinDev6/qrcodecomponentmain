@@ -21,15 +21,15 @@ body {
 }
 
 .container {
-  font-size: 15px;
-  width: 100;
-  max-width: 1200px;
-  height: 430px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: auto;
-}
+    font-size: 15px;
+    width: 100%;
+    max-width: 1200px;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: auto;
+  }
 
 .container .attribution img {
   margin: 6px;
@@ -45,8 +45,7 @@ body {
   width: 320px;
   height: 470px;
   border-radius: 20px;
-  overflow: hidden;
-  margin: 20px;
+  margin: auto;
   text-align: center;
   padding: 15px;
   min-width: 320px;
